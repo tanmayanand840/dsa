@@ -5,7 +5,6 @@ public:
        int m=grid[0].size();
        vector<vector<int>> matrix(n,vector<int>(m,0));
        vector<vector<int>>pf(n,vector<int>(m,0));
-       int countX=0;
        int count=0;
        for(int i=0;i<n;i++){
         for(int j=0;j<m;j++){
